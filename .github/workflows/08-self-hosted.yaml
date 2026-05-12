@@ -7,5 +7,5 @@ jobs:
   self-hosted:
     runs-on: self-hosted
     steps:
-      - name: Greet the world
+      - name: Greet the world 
         run: echo "Hello, from self hosted runner!" # The command to execute
