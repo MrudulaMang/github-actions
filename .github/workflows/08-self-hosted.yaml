@@ -6,7 +6,7 @@ jobs:
   # Job name
   self-hosted:
     runs-on: [self-hosted, linux, x64]
-    steps:
+    steps: 
       - name: Greet the world 
         run: 
           echo "Hello, from self hosted runner!" | 
