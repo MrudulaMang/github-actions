@@ -10,4 +10,4 @@ jobs:
       - name: Greet the world 
         run: 
           echo "Hello, from self hosted runner!" | 
-          echo ${{ secrets.AWS_ACCESS_KEY_ID }}
+          echo "${{ secrets.AWS_ACCESS_KEY_ID }}"
